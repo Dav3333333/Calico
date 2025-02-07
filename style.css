@@ -1,0 +1,123 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    padding: 2%;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logos img{
+    width: 20%;
+    height: auto;
+}
+
+.logos .ci-ucbc img{
+    width: 40%;
+}
+
+.logos .ci-ucbc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: x-large;
+    color: green;
+}
+
+.logos .ucbc{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.logos .ucbc span{
+    padding: 4px;
+    padding-top: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 40%;
+    color: red;
+}
+
+
+.verses{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.devise{
+    background-color: rgb(33, 124, 33);
+    color: #ffff;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.verse-subtitle{
+    background-color: #f01111;
+    color: #ffff;
+    width: 80%;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 2.5px;
+}
+
+.theme{
+    background-color: rgb(27, 165, 89);
+    color: #ffff;
+    padding: 10px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.verse-content{
+    margin-top: 8px;
+    padding: 5px;
+    font-size: large;
+    text-align: center;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.borded{
+    border-left: 2px solid red;
+}
+
+.links{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    font-weight: 100;
+    margin-top: 5px;
+    color: red;
+}
+
+.links span{
+    color: green;
+}
